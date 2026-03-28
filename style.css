@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.box {
+  background-color: #f0f4f7;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(2, 0, 0, 0.123);
+}
+input {
+  /* width: 100%; */
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.errormsg {
+  color: red;
+}
+button {
+  padding: 10px;
+  background-color: #2563ea;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: 1s;
+}
+button:hover {
+  background-color: blue;
+  transition: 1s;
+}
+.loging-section h1 {
+  text-align: center;
+}
+.demo-h {
+  text-align: center;
+}
+.demo {
+  background-color: #f4f4f4;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.hidden {
+  display: none;
+}
+
+/* dashbord section css start*/
+.welcome-text {
+  text-align: center;
+}
+.dashboard-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.dashboard-actions button {
+  width: 90%;
+}
+/* dashbord section css end*/

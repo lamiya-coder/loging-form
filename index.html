@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>loging form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- loging section start -->
+    <section class="loging-section box" id="loging-section">
+      <h1>Loging</h1>
+      <input type="text" id="user-name" placeholder="Enter user name" />
+      <input
+        type="password"
+        id="user-password"
+        placeholder="Enter user password"
+      />
+      <p id="errormsg" class="errormsg hidden">
+        Username and password is incorrect
+      </p>
+      <button id="logingBtn">loging</button>
+      <div class="demo">
+        <p class="demo-h"><strong>Demo Credentials</strong></p>
+        <p><strong>Demo username:lamiya</strong></p>
+        <p><strong>Demo password:987456@#</strong></p>
+      </div>
+    </section>
+    <!-- loging section end-->
+
+    <!-- dasbord section start -->
+
+    <section class="dashboard-section hidden box" id="dashboard-section ">
+      <h1>Welcome To Dashbord</h1>
+      <p class="welcome-text" id="welcome-text">Welcome Lamiya</p>
+
+      <div class="dashboard-actions">
+        <button id="themeBtn">toggle Dark/light</button>
+        <button id="logoutBtn">Log out</button>
+      </div>
+    </section>
+
+    <!-- dasbord section end-->
+
+    <script src="main.js"></script>
+  </body>
+</html>
